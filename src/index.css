@@ -1,13 +1,166 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* to tidy up
+settle individual component styles in cpomponent folder */
+
+
+@import url('https://umpkg.com/@tailwindcss/typograohy@0.2.x/dist/typography.min.css');
+@import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*  */
+
+@font-face {
+  font-family: 'ArchiveGaramondBold';
+  src: url('assets/typography/ArchiveGaramond/ArchiveGaramondExp-Bold.otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'ArchiveGaramondPro';
+  src: url('assets/typography/ArchiveGaramond/ArchiveGaramondPro.otf');
 }
+
+/*  */
+
+.roboto-regular { 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/* .cursive { 
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+} */
+
+.archive-garamond-bold {
+  font-family: 'ArchiveGaramondBold';
+}
+
+.archive-garamond-pro {
+  font-family: 'ArchiveGaramondPro';
+}
+
+.prose img  {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 150px;
+}
+
+/* color palette */
+
+/* .bg-brown-dark {
+  background-color: #3B2D15;
+} */
+
+text-red-100 bg-red-700
+
+.text-red-100 {
+
+}
+
+.bg-red-700 {
+
+}
+
+.text-red-100 {
+
+}
+
+.bg-red-700 {
+
+}
+
+
+
+
+/* color Palatte */
+
+/* 
+
+#3B2D15 Dark Brown
+
+#926014 Medium Brown
+
+#FDFAEO Light Brown
+
+#32361C Dark Green 
+
+*/
+
+.text-dark-brown {
+  color:  #3B2D15;
+}
+
+.text-dark-brown {
+  color: #926014;
+}
+
+.text-light-brown {
+  color: #FDFBE2;
+}
+
+.text-dark-green {
+  color: #32361C;
+}
+
+/*  */
+
+.bg-dark-brown {
+  background-color:  #3B2D15;
+}
+
+.bg-medium-brown {
+  background-color: #926014;
+}
+
+.bg-light-brown {
+  background-color: #FDFBE2;
+}
+
+.bg-dark-green {
+  background-color: #32361C;;
+}
+
+/*  */
+
+/* .bg-brown-dark {
+  background-color: #3B2D15;
+} */
+
+/*  */
+
+.bg-dark-brown {
+  background-color:  #3B2D15;
+}
+
+.bg-medium-brown {
+  background-color: #926014;
+}
+
+.bg-light-brown {
+  background-color: #FDFBE2;
+}
+
+.bg-dark-green {
+  background-color: #32361C;;
+}
+
+/*  */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*  */
+
+.logo-container {
+  height: 100%;
+  /* width: 70px; */
+  width: 90px;
+  padding: 25px;
+}
+
+
+
