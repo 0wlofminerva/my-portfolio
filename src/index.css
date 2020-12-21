@@ -93,7 +93,7 @@ text-red-100 bg-red-700
   color:  #3B2D15;
 }
 
-.text-dark-brown {
+.text-medium-brown {
   color: #926014;
 }
 
@@ -162,5 +162,25 @@ text-red-100 bg-red-700
   padding: 25px;
 }
 
+/*  */
 
+/* .border-green-400 {
+  --tw-border-opacity: 1;
+  border-color: rgba(50, 54, 28, 1,var(--tw-border-opacity));
+} */
 
+/* .border-medium-brown {
+  --tw-border-opacity: 1;
+  border-color: rgba(146, 96, 20, 1,var(--tw-border-opacity));
+} */
+
+.border-medium-brown {
+  --tw-border-opacity: 1;
+  border-color: rgba(146, 96, 20, 1);
+}
+
+/* dark brown rgba(50, 54, 28, 1) */
+
+/* medium brown rgba(146, 96, 20, 1) */
+
+/* light brown rgba(253, 251, 226, 1) */

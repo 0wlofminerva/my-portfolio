@@ -19,23 +19,23 @@ export default function Navbar() {
                     to='/' 
                     exact 
                     activeClassName='text-dark-brown'
-                    className='inflex-flex items-center py-6 px-3 mr-4 text-dark-brown hover:text-brown-light text-4xl font-bold archive-garamond-bold tracking-widest uppercase' 
-                    activeClassName='text-medium-brown bg-light-brown'
+                    className='inflex-flex items-center py-6 px-3 mr-4 text-dark-brown hover:text-dark-brown text-4xl font-bold archive-garamond-bold tracking-widest uppercase' 
+                    activeClassName='text-dark-brown bg-light-brown'
                     >
                     
                         Manuel de Arpe
                     </NavLink>
-                    <NavLink to='/post' className='inline-flex items-center py-3 px-3 my-6 rounded text-dark-brown hover:text-brown-light'
+                    <NavLink to='/post' className='inline-flex items-center py-3 px-3 my-6 rounded text-dark-brown hover:text-medium-brown'
                     activeClassName='text-dark-brown bg-light-brown'
                     >
                         Blog Posts
                     </NavLink>
-                    <NavLink to='/project' className='inline-flex items-center py-3 px-3 my-6 rounded text-dark-brown hover:text-brown-light' 
+                    <NavLink to='/project' className='inline-flex items-center py-3 px-3 my-6 rounded text-dark-brown hover:text-medium-brown' 
                     activeClassName='text-dark-brown bg-light-brown'
                     >
                         Projects
                     </NavLink>
-                    <NavLink to='/about' className='inline-flex items-center py-3 px-3 my-6 rounded text-dark-brown hover:text-brown-light' 
+                    <NavLink to='/about' className='inline-flex items-center py-3 px-3 my-6 rounded text-dark-brown hover:text-medium-brown' 
                     activeClassName='text-dark-brown bg-light-brown'
                     >
                         About
